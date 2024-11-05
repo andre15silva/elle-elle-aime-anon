@@ -10,17 +10,7 @@ Supported benchmarks:
 
 If you use this code, please cite
 
-```bibtex
-@techreport{repairbench,
-  title={RepairBench: Leaderboard of Frontier Models for Program Repair}, 
-  author={André Silva and Martin Monperrus},
-  year={2024},
-  url={https://arxiv.org/abs/2409.18952}, 
-  number = {2409.18952},
-  institution = {arXiv},
-}
-```
-  
+ 
 ## Installation
 
 Requires python3.11 (or latest) and python-poetry.
@@ -71,5 +61,3 @@ pytest -s tests/
 ## Check out the results
 
 We store all the results (prompts, patches, evaluation) in a separate repository.
-
-Please visit https://github.com/ASSERT-KTH/repairbench for these.
